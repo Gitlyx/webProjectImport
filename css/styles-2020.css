@@ -1,10 +1,22 @@
 body {
-    background-color: lightblue;
+    background: radial-gradient( #000000 #5eaaa8);
+    display: inline-block;
+    font-size: medium;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 5em;
+}
+
+h1{
+    margin: 0;
 }
 
 
-/* css classes */
-
-.right {
-    text-align: right;
+.mainHead{
+    display: inline-block;
+    font-size: 20;
+}
+.workExperience{
+    display: inline-block;
+    font-size: x-large;
 }
