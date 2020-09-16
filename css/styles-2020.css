@@ -1,22 +1,19 @@
-body {
-    background: radial-gradient( #000000 #5eaaa8);
-    display: inline-block;
-    font-size: medium;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 5em;
-}
-
-h1{
+*{
     margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d8d3cd;
+    font-family: calibri;
 }
 
-
-.mainHead{
-    display: inline-block;
-    font-size: 20;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.workExperience{
-    display: inline-block;
-    font-size: x-large;
+
+.headder{
+    grid-area: ;
+
+
 }
